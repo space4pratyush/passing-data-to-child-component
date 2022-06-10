@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'passing-data-to-child-component';
+
+  counter=5;
+
+  increment(){
+    this.counter++;
+  }
+
+  decrement(){
+    this.counter--;
+  }
 }
